@@ -35,5 +35,5 @@ document.getElementById('submit').addEventListener('click', function(event) {
     return;
   }
 
-  alert('Thanks you for your data Sucker!');
+  alert('Thank you for your data Sucker!');
 });
