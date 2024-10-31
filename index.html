@@ -3,7 +3,7 @@
 <head>
   <title>Secret Personal Data Stealing Newsletter</title>
   <meta charset="utf-8">
-  <meta name="viewpoint">
+  <meta name="viewport">
   <link rel="stylesheet" media="screen" href="css/screen.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
 </head>
@@ -13,10 +13,11 @@
       <form method="get" action="#null">
         <h1>STOP INTERNET HACKING NEWSLETTER</h1>
         <p>Sign up and learn secrets to fight Hackers!</p>
+        <p>To start the fight, please enter the following information!</p>
         <ol>
           <li id="input-email">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" pattern="^.+@.+$" required />
+            <input type="email" name="email" id="email" pattern="^.+@.+$" required autocomplete="email"/>
           </li>
           <li id="input-birthday">
             <label for="birthday">Birthday</label>
@@ -31,8 +32,8 @@
             <input type="text" name="address" id="address" required />
           </li>
           <li id="input-age-verification">
-            <input type="checkbox" id="age-verification" name="age-verification" value="18" required />
             <label for="age-verification">I am over 18 years old</label>
+            <input type="checkbox" id="age-verification" name="age-verification" value="18" required />
           </li>
           <li id="input-submit">
             <input type="submit" name="submit" id="submit" value="Subscribe" />

@@ -24,6 +24,20 @@
     line-height: 1.2;
   }
 
+  ol {
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+  }
+
+  ol li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
   .form-wrapper {
     display: flex;
     flex-direction: column;
@@ -47,11 +61,20 @@
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: center;
+  }
+
+  #input-age-verification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
   }
   
   input[type="submit"] {
-    cursor: pointer;
-    background-color: #007bff;
+    justify-content: center;
+    background-color: hsl(107, 100%, 50%);
     color: white;
     border: none;
   }
