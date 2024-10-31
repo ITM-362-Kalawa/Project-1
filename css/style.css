@@ -24,7 +24,6 @@
     line-height: 1.2;
     color: #2ea80c;
     font-family: "Sixtyfour Convergence", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
   }
   
@@ -34,7 +33,6 @@
     margin: 10px;
     line-height: 1.2;
     font-family: "Space Grotesk", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-size: 25px;
   }
