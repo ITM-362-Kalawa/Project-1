@@ -108,9 +108,33 @@
   }
   
   @media (max-width: 480px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1.2em;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="submit"] {
+      padding: 12px;
+      font-size: 1em;
+    }
+  
     .form-wrapper {
-      width: 90%;
-      padding: 10px;
+      padding: 15px;
+    }
+  
+    footer {
+      padding: 15px;
+      font-size: 1em;
     }
   }
   
+  img {
+    max-width: 100%;
+    height: auto;
+  }
