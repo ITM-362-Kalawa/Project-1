@@ -36,7 +36,7 @@
     font-family: "Space Grotesk", serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   ol {
@@ -46,6 +46,7 @@
     font-family: "Montserrat Alternates", serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 19px;
   }
 
   ol li {
@@ -132,9 +133,4 @@
       padding: 15px;
       font-size: 1em;
     }
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
   }
