@@ -1,9 +1,16 @@
+  
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
   html, body {
     height: 100%;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+  }
+
+  body {
     background-image: url('../media/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,6 +22,10 @@
     text-align: center;
     margin: 0;
     line-height: 1.2;
+    color: #2ea80c;
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
   }
   
   p {
@@ -74,7 +85,7 @@
   
   input[type="submit"] {
     justify-content: center;
-    background-color: #37ff00;
+    background-color: #2ea80c;
     color: white;
     border: none;
   }
