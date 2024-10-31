@@ -36,12 +36,16 @@
     font-family: "Space Grotesk", serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    font-size: 30px;
   }
 
   ol {
     padding: 0;
     list-style-type: none;
     width: 100%;
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 600;
+    font-style: normal;
   }
 
   ol li {
@@ -92,6 +96,8 @@
     color: white;
     border: none;
   }
+
+  
   
   /* Media Queries for responsive design */
   @media (max-width: 768px) {
